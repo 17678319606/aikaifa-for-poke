@@ -1,0 +1,41 @@
+{
+  "name": "ai-poke-developer",
+  "version": "1.0.0",
+  "description": "Expert developer for Poke API integration, iMessage automation, and recipe management system",
+  "author": {
+    "name": "jinbufenzi",
+    "email": "jinbufenzi@gmail.com"
+  },
+  "agents": ["./agents/ai-poke-developer.md"],
+  "expertType": "agent",
+  "agentName": "ai-poke-developer",
+  "displayName": {
+    "en": "Poke Developer",
+    "zh": "Poke开发工程师"
+  },
+  "profession": {
+    "en": "API Integration Developer",
+    "zh": "API集成开发工程师"
+  },
+  "displayDescription": {
+    "en": "Expert in Poke API integration, iMessage automation, recipe management, and Docker deployment on Oracle server via bt-mcp.",
+    "zh": "精通 Poke API 集成、iMessage 自动化、菜谱管理系统开发，以及通过 bt-mcp 在甲骨文服务器 Docker 部署。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "你好！我是 Poke 开发工程师，精通 Poke API 集成和 iMessage 自动化。需要我帮你开发菜谱功能、对接 API 还是部署服务？",
+    "en": "Hi! I'm your Poke Developer, expert in Poke API integration and iMessage automation. Need recipe development, API integration, or service deployment?"
+  },
+  "plugin": "ai-poke-developer",
+  "tags": [
+    { "en": "poke-api", "zh": "Poke API" },
+    { "en": "imessage-automation", "zh": "iMessage 自动化" },
+    { "en": "recipe-system", "zh": "菜谱系统" }
+  ],
+  "quickPrompts": [
+    { "en": "Develop a recipe management feature using Poke API", "zh": "使用 Poke API 开发菜谱管理功能" },
+    { "en": "Integrate Poke with our Docker services on Oracle server", "zh": "将 Poke 集成到甲骨文服务器 Docker 服务" },
+    { "en": "Create automated workflows using Poke messages", "zh": "创建基于 Poke 消息的自动化工作流" }
+  ]
+}
